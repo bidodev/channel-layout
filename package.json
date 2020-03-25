@@ -3,6 +3,9 @@
     "sass": "^1.26.3"
   },
   "scripts": {
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "build": "parcel index.html",
+    "clean": "rm -rf dist/*",
+    "release": "npm run clean && npm run build",
+    "deploy": "cd dist && git add --all && git commit -m \"Release at $(date)\" && git push"
   }
 }
