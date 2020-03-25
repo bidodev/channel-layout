@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.26.3"
+  },
+  "scripts": {
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  }
+}

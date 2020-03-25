@@ -1,0 +1,90 @@
+/*
+  Header Rules
+  */
+
+/* header-container styling rules*/
+
+.header {
+  //border: 1px solid red;
+  min-width: 100vw;
+  height: 6vh;
+  display: flex;
+  opacity: 0.95;
+  background-color: $color-primary;
+
+  &__hamburger {
+    //border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 4vw;
+    cursor: pointer;
+    // position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__logo {
+    //border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 10vw;
+    align-items: center;
+    border-radius: 2px;
+
+    &-img {
+      width: 9rem;
+      height: 2rem;
+      border-radius: 2px;
+    }
+  }
+  /* search bar styling rules */
+  &__search {
+    //border: 1px solid red;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    &-input {
+      justify-self: center;
+      font-size: 1.5rem;
+      border: $color-tertiary 1px solid;
+      background-color: $color-black;
+      width: 55rem;
+      height: 2.8rem;
+
+      &:focus {
+        outline: solid $color-blue-light 1px;
+      }
+    }
+
+    &-button {
+      cursor: pointer;
+      width: 6.5rem;
+      height: 2.8rem;
+      padding: 1px 6px;
+      border: none;
+      border-radius: 1px;
+      color: $color-light-grey;
+      background-color: $color-tertiary;
+    }
+  }
+
+  /* header right icons styling rules */
+  &__list {
+    //border: 1px solid red;
+    display: flex;
+    flex-basis: 13vw;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+    &-photo {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/* channel owner banner */
+.inner-header {
+  //border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //border: 5px solid red;
+
+  &__img {
+    // border: 1px solid red;
+    width: 95.6vw;
+    height: calc(96vw / 6.2 - 1px);
+  }
+}

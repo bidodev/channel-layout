@@ -1,0 +1,20 @@
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./base/scrollbar";
+@import "./base/typography";
+@import "./base/utilities";
+
+@import "./components/buttons";
+@import "./components/dropdown";
+
+@import "./layout/header";
+@import "./layout/sidebar";
+@import "./layout/main-page";
+@import "./layout/inner-header";
+@import "./layout/inner-profile";
+@import "./layout/inner-content";
+
+/* all the styles rules for the icons from fontawesome*/
+@import "./vendors/fontawesome";
+@import "./vendors/normalize";

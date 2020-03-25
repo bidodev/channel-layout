@@ -1,0 +1,36 @@
+/* scrollbar styling rules */
+
+html {
+  scrollbar-face-color: $color-primary;
+  scrollbar-base-color: $color-primary;
+  scrollbar-3dlight-color: $color-primary;
+  scrollbar-highlight-color: $color-primary;
+  scrollbar-track-color: $color-black;
+  scrollbar-arrow-color: $color-black;
+  scrollbar-shadow-color: $color-primary;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.3rem;
+}
+::-webkit-scrollbar-button {
+  background-color: $color-primary;
+}
+::-webkit-scrollbar-track {
+  background-color: $color-scrollbar;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: $color-black;
+}
+::-webkit-scrollbar-thumb {
+  height: 5rem;
+  background-color: $color-primary;
+  border-radius: 0.3rem;
+}
+::-webkit-scrollbar-corner {
+  background-color: $color-scrollbar;
+}
+::-webkit-resizer {
+  background-color: $color-primary;
+}

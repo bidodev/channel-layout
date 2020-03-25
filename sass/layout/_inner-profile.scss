@@ -1,0 +1,136 @@
+.inner-profile {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-inner-black;
+  //border: 2px solid rgb(92, 92, 27);
+
+  &__info {
+    //border: 1px solid olive;
+    flex: 0 0 11vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    //border: 1px solid red;
+    cursor: auto;
+    flex: 0 0 18.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    &-img {
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+    }
+  }
+
+  &__name {
+    // border: 1px solid red;
+    padding-left: 2rem;
+    cursor: auto;
+    flex: 1 0 30vw;
+    color: $color-white;
+    white-space: nowrap;
+    font-size: 2.4rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    /* Number of subscriptions*/
+    &-insc {
+      padding-top: 5px;
+      color: #aaaaaa;
+      font-size: 1.4rem;
+    }
+  }
+
+  /*Signin button*/
+  &__signin {
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex: 0 0 21vw;
+    height: auto;
+
+    &-button {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      width: 12rem;
+      height: 3.6rem;
+      cursor: pointer;
+      color: white;
+      background-color: #c00;
+      border-radius: 2px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 0.007px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  /* inner nav wraper*/
+  .inner-nav {
+    display: flex;
+
+    //border: red 1px solid;
+    flex-basis: 4.8vh;
+    justify-content: space-between;
+    //background-color: #181818;
+
+    &__cont-1 {
+      width: 16vw;
+    }
+
+    &__cont-2 {
+      //border: white 1px solid;
+      cursor: pointer;
+      // background-color: #181818;
+      flex: 1 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 0.007px;
+      text-transform: uppercase;
+      transition: opacity 0.1s cubic-bezier(0.4, 0, 1, 1);
+    }
+    &__cont-3 {
+      //background-color: #181818;
+      flex: 0 0 41vw;
+    }
+
+    /* rules for the inner navbar*/
+    &__nav {
+      &-item {
+        color: #aaaaaa;
+        padding-bottom: 1rem;
+        // border: red 1px solid;
+
+        font-size: 1.6rem;
+
+        &:hover {
+          color: #fff;
+        }
+        &.active {
+          border-bottom: 3px solid #aaaaaa;
+          color: white;
+        }
+      }
+    }
+  }
+}

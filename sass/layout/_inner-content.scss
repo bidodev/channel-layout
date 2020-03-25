@@ -1,0 +1,168 @@
+/* section inner profile*/
+.inner-content {
+  //border: 1px solid white;
+  flex-grow: 1;
+  display: flex;
+
+  /* text on the right side of the pinned video */
+  &__text {
+    line-height: 1.6;
+    padding-left: 3rem;
+    width: 42rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-1 {
+      font-size: 1.4rem;
+
+      &--span {
+        font-size: 1.3rem;
+        color: $color-grey-medium;
+      }
+    }
+    &-2 {
+      font-size: 1.4rem;
+
+      &--link {
+        color: #3ea6ff;
+      }
+    }
+    &-3 {
+      font-size: 1.4rem;
+    }
+    &-4 {
+      font-size: 1.4rem;
+
+      &--btn {
+        text-transform: uppercase;
+        width: 12rem;
+        height: 3.6rem;
+        cursor: pointer;
+        border-radius: 2px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.007px;
+        text-transform: uppercase;
+        transition: all 0.2s;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+/* video pinned in the channel*/
+.featured__videos {
+  //border: 1px solid red;
+  flex: 1 0 auto;
+  color: $color-white;
+  background-color: $color-quartary;
+
+  &--pinned {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--video {
+    width: 41rem;
+    height: 24rem;
+  }
+}
+
+/* list of featured channels*/
+.featured-channels {
+  //border: 2px solid red;
+  flex: 0 0 50vh;
+  color: white;
+  background-color: $color-quartary;
+  //border: 1px solid red;
+
+  &__title {
+    padding-top: 2rem;
+    color: #aaa;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.007px;
+    //border: 2px solid red;
+  }
+
+  &__channel {
+    //border: 2px solid red;
+    display: flex;
+    height: 8vh;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+
+  &__singin {
+    //border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 11rem;
+    height: 2.8rem;
+    cursor: pointer;
+    color: #aaa;
+    background-color: $color-white-light;
+    border-radius: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.channel__info {
+  display: flex;
+  align-items: center;
+  width: 6.5vw;
+  justify-content: space-between;
+  //border: 2px solid red;
+
+  &--logo {
+    border-radius: 50%;
+    height: 2.4rem;
+    width: 2.4rem;
+    //border: 1px solid red;
+  }
+  &--name {
+    //border: 1px solid red;
+    text-overflow: ellipsis;
+    display: block;
+    max-height: 1.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+  }
+}
+
+/* hr styling rules */
+.hr__styling {
+  margin-left: 27.5rem;
+  width: 80%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
