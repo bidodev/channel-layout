@@ -131,6 +131,8 @@ body {
   width: 9rem;
   height: 2rem;
   border-radius: 2px;
+  background-image: url(/logo-black.aedee9ab.png);
+  background-size: cover;
 }
 .header__search {
   display: flex;
@@ -145,6 +147,7 @@ body {
   background-color: #000000;
   width: 55rem;
   height: 2.8rem;
+  border-radius: 2px;
 }
 .header__search-input:focus {
   outline: solid rgba(97, 97, 231, 0.8) 1px;
@@ -154,10 +157,12 @@ body {
   width: 6.5rem;
   height: 2.8rem;
   padding: 1px 6px;
-  border: none;
+  border: #303030 1px solid;
+  border-left: none;
   border-radius: 1px;
   color: #909090;
   background-color: #303030;
+  border-radius: 2px;
 }
 .header__list {
   display: flex;
@@ -551,6 +556,10 @@ body {
 
 .grey-light {
   background-color: #f9f9f9;
+}
+
+.light-header {
+  background-image: url(/logo-light.8ba75012.png);
 }
 
 /*# sourceMappingURL=/main.07544d9b.css.map */

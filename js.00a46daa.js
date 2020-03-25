@@ -131,7 +131,7 @@ document.querySelector(".btn-light").addEventListener("click", function () {
     element.classList.toggle("content-grey");
   }); //turn content into grey
 
-  var greyItems = document.querySelectorAll(".featured__videos, .featured-channels"); //console.log(list);
+  var greyItems = document.querySelectorAll(".featured__videos, .featured-channels, .header__search-button"); //console.log(list);
 
   greyItems.forEach(function (element) {
     element.classList.toggle("grey");
@@ -146,7 +146,9 @@ document.querySelector(".btn-light").addEventListener("click", function () {
 
   a.forEach(function (element) {
     element.classList.toggle("text-black");
-  }); // document.querySelector(".inner-profile__name").style.color = "#030303";
+  }); //display the result
+
+  document.querySelector(".header__logo-img").classList.toggle("light-header"); // document.querySelector(".inner-profile__name").style.color = "#030303";
   // document.querySelector(".inner-profile__name-insc").style.color = "#606060";
   // document.querySelector("").style.color = "#606060";
 });
@@ -178,7 +180,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42927" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37641" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
