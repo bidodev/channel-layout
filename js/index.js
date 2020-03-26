@@ -10,7 +10,7 @@ document.querySelector(".btn-light").addEventListener("click", () => {
 
   //turn all the buttons into grey
   const list = document.querySelectorAll(
-    ".fas, .fab, .inner-nav__nav-item, .inner-profile__name-insc, .inner-content__text-1--span"
+    ".fas, .fab,  .inner-profile__name-insc, .inner-content__text-1--span"
   );
   list.forEach((element) => {
     element.classList.toggle("content-grey");
@@ -18,7 +18,7 @@ document.querySelector(".btn-light").addEventListener("click", () => {
 
   //turn content into grey
   const greyItems = document.querySelectorAll(
-    ".featured__videos, .featured-channels"
+    ".featured__videos, .featured-channels, .header__search-button"
   );
   //console.log(list);
   greyItems.forEach((element) => {
@@ -42,7 +42,21 @@ document.querySelector(".btn-light").addEventListener("click", () => {
     element.classList.toggle("text-black");
   });
 
-  // document.querySelector(".inner-profile__name").style.color = "#030303";
-  // document.querySelector(".inner-profile__name-insc").style.color = "#606060";
-  // document.querySelector("").style.color = "#606060";
+  //display the result
+  document.querySelector(".header__logo-img").classList.toggle("light-header");
+
+  //turn  into red for test.
+  document
+    .querySelector(".featured-channels__singin")
+    .classList.toggle("text-dark-light");
+
+  document
+    .querySelector(".featured-channels__title")
+    .classList.toggle("text-dark-featured");
+
+  //sidebar elements
+  const sidebarItem = document.querySelectorAll(".main-page__sidebar-item");
+  sidebarItem.forEach((element) => {
+    element.classList.toggle("hover-sidebar-item");
+  });
 });

@@ -37,6 +37,8 @@
       width: 9rem;
       height: 2rem;
       border-radius: 2px;
+      background-image: url(../img/logo-black.png);
+      background-size: cover;
     }
   }
   /* search bar styling rules */
@@ -47,6 +49,7 @@
     align-items: center;
     justify-content: center;
 
+    //to fix the border-radius
     &-input {
       justify-self: center;
       font-size: 1.5rem;
@@ -54,6 +57,7 @@
       background-color: $color-black;
       width: 55rem;
       height: 2.8rem;
+      border-radius: 2px;
 
       &:focus {
         outline: solid $color-blue-light 1px;
@@ -65,10 +69,12 @@
       width: 6.5rem;
       height: 2.8rem;
       padding: 1px 6px;
-      border: none;
+      border: $color-tertiary 1px solid;
+      border-left: none;
       border-radius: 1px;
       color: $color-light-grey;
       background-color: $color-tertiary;
+      border-radius: 2px;
     }
   }
 

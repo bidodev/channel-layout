@@ -1,0 +1,45 @@
+/* all buttons */
+.content-grey {
+  color: #606060;
+}
+
+.text-black {
+  color: #030303;
+}
+
+.light {
+  background-color: #f9f9f9;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.grey {
+  background-color: #f1f1f1;
+}
+
+.grey-light {
+  background-color: #f9f9f9;
+  color: #606060;
+}
+
+.light-header {
+  background-image: url(../img/logo-light.png);
+}
+
+.text-dark-light {
+  background-color: rgba(96, 96, 96, 0.3);
+  color: #606060;
+}
+
+.text-dark-featured {
+  color: #606060;
+}
+
+.hover-sidebar-item {
+  color: #606060;
+  &:hover {
+    background-color: #ccc;
+  }
+}
