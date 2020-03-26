@@ -151,7 +151,12 @@ document.querySelector(".btn-light").addEventListener("click", function () {
   document.querySelector(".header__logo-img").classList.toggle("light-header"); //turn  into red for test.
 
   document.querySelector(".featured-channels__singin").classList.toggle("text-dark-light");
-  document.querySelector(".featured-channels__title").classList.toggle("text-dark-featured");
+  document.querySelector(".featured-channels__title").classList.toggle("text-dark-featured"); //sidebar elements
+
+  var sidebarItem = document.querySelectorAll(".main-page__sidebar-item");
+  sidebarItem.forEach(function (element) {
+    element.classList.toggle("hover-sidebar-item");
+  });
 });
 },{}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -181,7 +186,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43571" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39767" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

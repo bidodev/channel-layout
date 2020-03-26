@@ -573,4 +573,11 @@ body {
   color: #606060;
 }
 
+.hover-sidebar-item {
+  color: #606060;
+}
+.hover-sidebar-item:hover {
+  background-color: #ccc;
+}
+
 /*# sourceMappingURL=/main.07544d9b.css.map */
