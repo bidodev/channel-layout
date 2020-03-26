@@ -126,7 +126,7 @@ document.querySelector(".btn-light").addEventListener("click", function () {
     element.classList.toggle("white");
   }); //turn all the buttons into grey
 
-  var list = document.querySelectorAll(".fas, .fab, .inner-nav__nav-item, .inner-profile__name-insc, .inner-content__text-1--span");
+  var list = document.querySelectorAll(".fas, .fab,  .inner-profile__name-insc, .inner-content__text-1--span");
   list.forEach(function (element) {
     element.classList.toggle("content-grey");
   }); //turn content into grey
@@ -148,9 +148,10 @@ document.querySelector(".btn-light").addEventListener("click", function () {
     element.classList.toggle("text-black");
   }); //display the result
 
-  document.querySelector(".header__logo-img").classList.toggle("light-header"); // document.querySelector(".inner-profile__name").style.color = "#030303";
-  // document.querySelector(".inner-profile__name-insc").style.color = "#606060";
-  // document.querySelector("").style.color = "#606060";
+  document.querySelector(".header__logo-img").classList.toggle("light-header"); //turn  into red for test.
+
+  document.querySelector(".featured-channels__singin").classList.toggle("text-dark-light");
+  document.querySelector(".featured-channels__title").classList.toggle("text-dark-featured");
 });
 },{}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -180,7 +181,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37641" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43571" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -237,7 +237,6 @@ body {
   flex-direction: column;
   background-color: #181818;
   /*Signin button*/
-  /* inner nav wraper*/
 }
 .inner-profile__info {
   flex: 0 0 11vh;
@@ -307,16 +306,16 @@ body {
 .inner-profile__signin-button:hover {
   opacity: 0.7;
 }
-.inner-profile .inner-nav {
+
+/* inner nav wraper*/
+.inner-nav {
   display: flex;
   flex-basis: 4.8vh;
   justify-content: space-between;
+  color: #aaa;
   /* rules for the inner navbar*/
 }
-.inner-profile .inner-nav__cont-1 {
-  width: 16vw;
-}
-.inner-profile .inner-nav__cont-2 {
+.inner-nav__cont-center {
   cursor: pointer;
   flex: 1 0 auto;
   display: flex;
@@ -328,20 +327,21 @@ body {
   text-transform: uppercase;
   transition: opacity 0.1s cubic-bezier(0.4, 0, 1, 1);
 }
-.inner-profile .inner-nav__cont-3 {
+.inner-nav__cont-1 {
+  width: 16vw;
+}
+.inner-nav__cont-3 {
   flex: 0 0 41vw;
 }
-.inner-profile .inner-nav__nav-item {
-  color: #aaaaaa;
+.inner-nav-item {
   padding-bottom: 1rem;
   font-size: 1.6rem;
 }
-.inner-profile .inner-nav__nav-item:hover {
+.inner-nav-item:hover {
   color: #fff;
 }
-.inner-profile .inner-nav__nav-item.active {
+.inner-nav-item.active {
   border-bottom: 3px solid #aaaaaa;
-  color: white;
 }
 
 /* section inner profile*/
@@ -534,6 +534,7 @@ body {
   color: rgba(255, 255, 255, 0.1);
 }
 
+/* all buttons */
 .content-grey {
   color: #606060;
 }
@@ -556,10 +557,20 @@ body {
 
 .grey-light {
   background-color: #f9f9f9;
+  color: #606060;
 }
 
 .light-header {
   background-image: url(/logo-light.8ba75012.png);
+}
+
+.text-dark-light {
+  background-color: rgba(96, 96, 96, 0.3);
+  color: #606060;
+}
+
+.text-dark-featured {
+  color: #606060;
 }
 
 /*# sourceMappingURL=/main.07544d9b.css.map */
