@@ -1,13 +1,21 @@
-# Channel Layout
+# Project  **Lookalike Youtube Channel** using Flexbox / Grid and SASS
 
-> A layout created using flexbox! This is for learning purposes only.
+## **Disclaimer**: 
+1. This was an exercise from **DCI's WEB Development Course**, which I attended between 2019 - 2021. 
+2. This project is just for learning purpose. 
 
 ## ROADMAP
-
-### DONE
-
+#### The mainly tasks were: 
 - [x] Header
 - [x] Sidebar
 - [x] Profile Info
 - [x] Profile Navigation
 - [x] Featured Channels
+- [x] Dark / Light Mode.
+
+## Final Desktop Version
+#### Dark Mode
+![screenshot](./doc/img/dark_mode.png)
+
+#### Light Mode
+![screenshot](./doc/img/white_mode.png)
