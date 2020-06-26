@@ -19,4 +19,4 @@
 ![screenshot](./doc/img/dark_mode.png)
 
 #### Light Mode
-![screenshot](./doc/img/white_mode.png)
+![screenshot](./doc/img/light_mode.png)
