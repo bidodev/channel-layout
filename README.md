@@ -1,4 +1,5 @@
-# Project  **Lookalike Youtube Channel** using Flexbox / Grid and SASS
+# Project:  **Lookalike Youtube Channel** 
+> Using Flexbox / Grid and SASS
 
 ## **Disclaimer**: 
 1. This was an exercise from **DCI's WEB Development Course**, which I attended between 2019 - 2021. 
