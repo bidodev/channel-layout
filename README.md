@@ -1,7 +1,7 @@
 # Project:  **Lookalike Youtube Channel** 
 > Using Flexbox / Grid and SASS
 
-![html](./doc/img/portfolio.png)
+![html](./doc/img/youtube.png)
 
 ### 🚀 Technologies used
 ![html](./doc/img/html.png)
